@@ -23,9 +23,9 @@ pipeline {
         }
       }
     }
-}
 post{
   failure{
     echo 'pipline failed'
   }
+}
 }
